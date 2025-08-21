@@ -1,4 +1,8 @@
 /* Styles for Mobile devices */
+body {
+  overflow-x: hidden;
+}
+
 .container {
   min-width: 320px;
   max-width: 375px;

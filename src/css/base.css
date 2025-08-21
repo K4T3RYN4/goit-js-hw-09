@@ -30,3 +30,26 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+li {
+  list-style: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  flex-direction: column;
+  max-width: 500px;
+  justify-content: center;
+  align-items: center;
+}
